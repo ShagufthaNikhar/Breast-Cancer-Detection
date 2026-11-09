@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Malignant Recall,F1
+LDA (default priors),0.975,1.0,0.75,0.857
+LDA (equal priors),0.988,1.0,0.875,0.933
+Logistic Regression,1.0,1.0,1.0,1.0
+Class-Weighted Logistic,0.975,0.8,1.0,0.889

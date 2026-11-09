@@ -1,0 +1,9 @@
+Feature set,Model,Accuracy,Precision,Malignant Recall,Recall Std,F1
+All 30 features,LDA (default priors),0.983,1.0,0.828,0.137,0.899
+All 30 features,LDA (equal priors),0.985,0.986,0.868,0.121,0.917
+All 30 features,Logistic Regression,0.993,0.996,0.94,0.087,0.965
+All 30 features,Class-Weighted Logistic,0.986,0.927,0.95,0.071,0.934
+Reduced (13),LDA (default priors),0.98,0.998,0.805,0.12,0.886
+Reduced (13),LDA (equal priors),0.984,0.952,0.888,0.098,0.915
+Reduced (13),Logistic Regression,0.989,0.993,0.895,0.113,0.937
+Reduced (13),Class-Weighted Logistic,0.976,0.854,0.95,0.071,0.893
